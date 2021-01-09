@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>MI Resorts</title>
+		<meta name="author" content="BluIP">
+		<meta name="description" content="Demo environment for MI Resorts">
+		<meta name="keywords" content="hotel, marriott, resorts, voip, cloud, telephony, contact, center">
+		<link rel="shortcut icon" href="/favicon.png" type="image">
+		<link rel="stylesheet" href="/css/style.css" type="text/css"> 
+	</head>
+	<body style="background-image: url(/media/hoteldowntownarea.jpg);">
+		<div class="menu-fixed">
+			<a href="/flightplan/">Agenda</a>
+			<a href="/presenters/">Presenter Backgrounds</a>
+			<a href="/partners/">Partner Information</a>
+			<a href="/videos/">Videos</a>
+		</div>
+		<div id="backtotop"><img src="/media/arrow-up.svg" width="40"></div>
+		<div class="page_wrapper" id="mi_resorts">
+			<div class="header">
+				<div class="hide-on-mobile">
+					<input type="text" placeholder="Find a Hotel">
+					<button><img src="/media/search.svg" width="14"></button>
+				</div>
+				<a id="logo" href="/"><img src="/media/logo.svg" width="250" /></a>
+				<div class="hide-on-mobile">
+					<input type="text" placeholder="Search All BluIP">
+					<button><img src="/media/search.svg" width="14"></button>
+				</div>
+				<div class="menu">
+					<a href="/flightplan/">Agenda</a>
+					<a href="/presenters/">Presenter Backgrounds</a>
+					<a href="/partners/">Partner Information</a>
+					<a href="/videos/">Videos</a>
+				</div>
+			</div>
+			<div class="main-leader">
+				<div>
+                    <h1>Hotel Downtown Area</h1>
+                    <button id="explore">Explore</button>
+				</div>
+			</div>
+			<div class="section-header" id="explore-page">
+				<div>
+					<h1>Guest Rating</h1>
+				</div>
+			</div>
+			<div class="dual-col" style="text-align: center; grid-gap: 0; padding: 0;">
+				<div class="rating">
+                    <h2>4 out of 5 Stars</h2>
+                    <img src="/media/4-5stars.svg" style="width: 300px;" />
+                </div>
+                <div>
+					<img src="/media/thumbs-up.svg" style="width: 150px;" />
+					<h2><strong>95%</strong> of guests recommended this hotel</h2>
+				</div>
+                <div class="dual-col" style="grid-gap: 0; padding: 0;">
+                    <div>
+                        <img src="/media/5-5stars.svg" style="width: 150px;"/>
+                        <p style="text-align: center;">Cleanliness</p>
+                    </div>
+                    <div>
+                        <img src="/media/4-5stars.svg" style="width: 150px;" />
+                        <p style="text-align: center;">Service</p>
+                    </div>
+                </div>
+			</div>
+			<div class="footer">
+				<div><a href="https://www.bluip.com"><img src="/media/powered-by.svg" style="width: 150px; margin: 10px 0;" /></a></div>
+				<div><a href="https://www.bluip.com/legal">&copy; 2021 BluIP&trade; Inc. </a> All rights reserved.</div>
+			</div>
+		</div>
+		<script>
+			//Name of the Customer Support Template: Marriott Bonvoy Gold
+			//Name of the Organization: BluIP Gold
+			  (function(document, script) {
+			  var bubbleScript = document.createElement(script);
+			  e = document.getElementsByTagName(script)[0];
+			  bubbleScript.async = true;
+			  bubbleScript.CiscoAppId =  'cisco-chat-bubble-app';
+			  bubbleScript.appPrefix = '';
+			  bubbleScript.DC = 'produs1.ciscoccservice.com';
+			  bubbleScript.orgId = '90fc73cb-aefb-47f2-852c-b9c7d8f5f0a1';
+			  bubbleScript.templateId = 'f7c34010-1574-11eb-a80d-0f7d374df65d';
+			  bubbleScript.src = 'https://bubble.produs1.ciscoccservice.com/bubble.js';
+			  bubbleScript.type = 'text/javascript';
+			  bubbleScript.setAttribute('charset', 'utf-8');
+			  e.parentNode.insertBefore(bubbleScript, e);
+			  })(document, 'script');
+			</script>
+	</body>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+	<script src="/js/app.js"></script>
+</html>
